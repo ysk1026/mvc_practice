@@ -1,10 +1,11 @@
 import logo from './logo.svg';
 import './App.css';
 import {Nav} from '../components'
+import {User} from '../templates'
 
 function App() {
   return (
-    <h1>Hello React</h1>
+    <User>Hello React</User>
   );
 }
 
