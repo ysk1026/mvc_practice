@@ -1,8 +1,9 @@
 import logo from './logo.svg';
+import React from 'react';
 import './App.css';
 import {Nav} from '../components';
 import {User} from '../templates';
-import {BrowserRouter as Router, Route, Switch } from 'react-router';
+import {BrowserRouter as Router, Route, Switch } from 'react-router-dom'
 
 function App() {
   return <>
