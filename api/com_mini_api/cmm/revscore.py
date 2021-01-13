@@ -16,3 +16,9 @@ class ReviewScore(Resource):
         print("진입")
         top_movies = ReviewDao.group_by() # 영화 = Key, 점수 = Value로 분류한 Dict를 받아옴.
         return top_movies
+    
+        @staticmethod
+    def get():
+        print("진입")
+        top_movies = ReviewDao.group_by() # 영화 = Key, 점수 = Value로 분류한 Dict를 받아옴.
+        return top_movies
